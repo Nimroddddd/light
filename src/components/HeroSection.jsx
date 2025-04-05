@@ -6,7 +6,7 @@ const HeroSection = () => {
           <div className="lg:w-1/2">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-900 dark:text-white">
               <span className="block">Hi, I'm</span>
-              <span className="block text-blue-600 dark:text-blue-400">Oluwafernami Sharon Oladipo</span>
+              <span className="block text-blue-600 dark:text-blue-400">Oluwaferanmi Sharon Oladipo</span>
             </h1>
             <p className="mt-4 text-xl text-gray-500 dark:text-gray-300 max-w-3xl">
               Data Analyst building amazing digital experiences.
