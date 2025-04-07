@@ -46,38 +46,17 @@ const ProjectsSection = () => {
       link: "https://drive.google.com/file/d/11Tqhi3x9Zzj9IgqZDPOGC9Th1CSbArqu/view"
     },
     {
-      title: "Task Management App",
-      description: "A productivity app for organizing projects and tasks with drag-and-drop functionality.",
-      image: "",
-      tags: ["React", "Redux", "Firebase", "Material UI"],
+      title: "Performance Analysis Dashboard",
+      description: "A comprehensive Performance Analysis Dashboard for Samtee Analytics Enterprise.",
+      image: "performanceanalysis.jpg",
+      tags: ["Microsoft Excel"],
       link: "#"
     },
     {
-      title: "Recipe Finder",
-      description: "Search for recipes based on ingredients you have at home using a third-party API.",
-      image: "",
-      tags: ["JavaScript", "API Integration", "CSS Grid", "Responsive"],
-      link: "#"
-    },
-    {
-      title: "Portfolio Website",
-      description: "Modern portfolio website showcasing work and skills with a clean, professional design.",
-      image: "",
-      tags: ["React", "Tailwind CSS", "Vite", "Responsive Design"],
-      link: "#"
-    },
-    {
-      title: "Weather Dashboard",
-      description: "Real-time weather information with search functionality and 5-day forecast.",
-      image: "",
-      tags: ["React", "OpenWeather API", "ChartJS", "Geolocation"],
-      link: "#"
-    },
-    {
-      title: "Blog Platform",
-      description: "Content management system with authentication, commenting, and admin dashboard.",
-      image: "",
-      tags: ["React", "Node.js", "Express", "MongoDB"],
+      title: "Investment Insights Dashboard",
+      description: "A comprehensive Investment Insights Dashboard that serves as an interactive data visualization tool analyzes investment preferences and behaviors across 40 participants",
+      image: "investment.jpg",
+      tags: ["Microsoft Excel"],
       link: "#"
     }
   ];
