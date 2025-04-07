@@ -47,7 +47,7 @@ const ProjectsSection = () => {
     },
     {
       title: "Performance Analysis Dashboard",
-      description: "A comprehensive Performance Analysis Dashboard for Samtee Analytics Enterprise.",
+      description: "A comprehensive Performance Analysis Dashboard for Samtee Analytics Enterprise. It visualizes key performance metrics and business insights, demonstrating my ability to transform raw data into actionable business intelligence.",
       image: "performanceanalysis.jpg",
       tags: ["Microsoft Excel"],
       link: "#"
