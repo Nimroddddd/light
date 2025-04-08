@@ -22,10 +22,10 @@ const ContactSection = () => {
     // Placeholder for form submission logic
     try {
       await emailjs.sendForm("gmail_service", "gmail_template", form)
-      alert("Success!")
+      alert("Your message has been sent successfully!")
     } catch(err) {
       console.log(err)
-      alert(err)
+      alert("Something went wrong, please try again later!")
     }    
     // Reset form after submission
     setFormData({
