@@ -15,12 +15,18 @@ const ContactSection = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    const form = e.target;
+    console.log(form)
     // Placeholder for form submission logic
-    console.log('Form data submitted:', formData);
-    alert('Thanks for your message! This is a demo form - in a real application, this would send your message.');
-    
+    try {
+      await emailjs.sendForm("gmail_service", "gmail_template", form)
+      alert("Success!")
+    } catch(err) {
+      console.log(err)
+      alert(err)
+    }    
     // Reset form after submission
     setFormData({
       name: '',
@@ -28,6 +34,10 @@ const ContactSection = () => {
       message: ''
     });
   };
+
+  emailjs.init({
+    publicKey: "O6QzLvLm7-bojdBB0"
+  })
 
   return (
     <section id="contact" className="py-16 md:py-24 bg-white dark:bg-gray-900">
@@ -162,7 +172,7 @@ const ContactSection = () => {
               
               <button
                 type="submit"
-                className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-md shadow-sm transition duration-300"
+                className="hover:cursor-pointer w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-md shadow-sm transition duration-300"
               >
                 Send Message
               </button>

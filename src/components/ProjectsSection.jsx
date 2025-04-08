@@ -50,14 +50,14 @@ const ProjectsSection = () => {
       description: "A comprehensive Performance Analysis Dashboard for Samtee Analytics Enterprise. It visualizes key performance metrics and business insights, demonstrating my ability to transform raw data into actionable business intelligence.",
       image: "performanceanalysis.jpg",
       tags: ["Microsoft Excel"],
-      link: "#"
+      link: "https://drive.google.com/drive/folders/12BA7BFzR2tCUCXkNgv05_AEKRbrOTpxM"
     },
     {
       title: "Investment Insights Dashboard",
       description: "A comprehensive Investment Insights Dashboard that serves as an interactive data visualization tool analyzes investment preferences and behaviors across 40 participants",
       image: "investment.jpg",
       tags: ["Microsoft Excel"],
-      link: "#"
+      link: "https://drive.google.com/file/d/1W4tGSHLlw3Om5UVsc4Ik8ZB79ZrpO54y/view"
     }
   ];
 
